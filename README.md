@@ -107,7 +107,7 @@ Quando alguém cancela, o primeiro da lista de espera assume automaticamente a v
 
 ### 1. Clone este repositório
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/gabsouza05/gitparty.git
 ```
 
 ### 2. Acesse a pasta do projeto
