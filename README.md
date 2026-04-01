@@ -38,6 +38,7 @@ src/
  ┣ routes/
  ┣ services/
  ┗ app.js / server.js
+```
 
 ---
 
@@ -102,8 +103,55 @@ Quando alguém cancela, o primeiro da lista de espera assume automaticamente a v
 
 ---
 
-# ▶️ Como executar o projeto
+## ▶️ Como executar o projeto
 
-1. Clone este repositório:
+### 1. Clone este repositório
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+### 2. Acesse a pasta do projeto
+```bash
+cd gitparty
+```
+
+### 3. Instale as dependências
+```bash
+npm install
+```
+
+### 4. Execute o servidor
+```bash
+npm start
+```
+
+Ou, se estiver usando nodemon:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Rotas da API
+
+### 👥 Usuários
+
+- POST /usuarios/cadastrar  
+- GET /usuarios/listar  
+
+---
+
+### 📆 Eventos
+
+- POST /eventos/cadastrar  
+- GET /eventos/listar  
+
+---
+
+### 📝 Inscrições
+
+- POST /inscricoes/cadastrar  
+- GET /inscricoes/listar  
+- PUT /inscricoes/atualizar/:id  
+- DELETE /inscricoes/excluir/:id  
